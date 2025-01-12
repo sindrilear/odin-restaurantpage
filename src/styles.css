@@ -1,0 +1,53 @@
+body {
+    background-image: url("images/mountanandlake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    height: 100vh;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.buttonwrapper {
+    display:flex;
+}
+
+p {
+    color:white;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+    font-size: 24px;
+}
+
+.content {
+    color:white;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+    font-size: 32px;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+#content {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height: 60vh;
+}
