@@ -1,4 +1,6 @@
 import "./styles.css";
-import { greeting } from "./greeting.js";
+import { greeting, showIndex } from "./greeting.js";
 
 console.log(greeting);
+
+// showIndex();
