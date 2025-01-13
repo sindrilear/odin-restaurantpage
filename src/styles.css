@@ -1,6 +1,7 @@
 body {
     background-image: url("images/mountanandlake.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center; 
     margin: 0;
@@ -17,12 +18,13 @@ nav {
 
 .buttonwrapper {
     display:flex;
+    gap: 5px;
 }
 
 p {
     color:white;
     text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .content {
@@ -50,5 +52,38 @@ button:hover {
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    height: 60vh;
+}
+
+.menu {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color:#5585b5;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    max-width: 60%;
+    min-height: 60%;
+}
+
+.menu-item {
+    display:flex;
+    flex-direction:column;
+    padding: 18px;
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+
+.price {
+    color:black;
+    align-self:flex-end;
+    text-shadow: none;
+}
+
+.itemheader {
+    color: #f8da5b;
+}
+
+.itemdesc {
+    color:black;
+    text-shadow: none;
 }
