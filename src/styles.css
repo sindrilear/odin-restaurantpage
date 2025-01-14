@@ -87,3 +87,23 @@ button:hover {
     color:black;
     text-shadow: none;
 }
+
+.aboutwrapper {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    gap: 24px;
+}
+
+.descriptionwrapper {
+    display:flex;
+    flex-direction:column;
+}
+
+img {
+    height:50%;
+    width:50%;
+    border-radius: 8px;
+}

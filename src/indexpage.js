@@ -1,7 +1,7 @@
-// greeting.js
-export const greeting = "Hello, restaurant page";
+import { resetPage } from "./resetpage";
 
 export function showIndex() {
+    resetPage();
     const content = document.querySelector("#content")
     const contenttext = document.createElement("p")
 
